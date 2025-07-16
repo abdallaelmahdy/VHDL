@@ -1,0 +1,22 @@
+[hdl]
+my_project2_lib = C:/flexlm/HDS/my_project/my_project_lib/hdl
+MY_PROJECT2_LIB1 = C:/flexlm/my_project4/my_project4_lib/hdl
+my_project4_lib = C:/flexlm/my_project4/my_project4_lib
+[hds]
+my_project2_lib = $HDS_PROJECT_DIR/my_project2_lib/hds
+MY_PROJECT2_LIB1 = $HDS_PROJECT_DIR/MY_PROJECT2_LIB1/hds
+my_project4_lib = $HDS_PROJECT_DIR/my_project4_lib/hds
+[hds_settings]
+default_library = my_project2_lib
+design_root = my_project4_lib.DEC8_3()hdl/dec8_3_struct.vhd
+version = 3
+[library_files_inclusion]
+my_project2_lib = specify
+MY_PROJECT2_LIB1 = specify
+my_project4_lib = specify
+[library_type]
+my_project2_lib = regular
+MY_PROJECT2_LIB1 = regular
+my_project4_lib = regular
+[shared]
+others = $HDS_TEAM_HOME/shared.hdp
