@@ -1,0 +1,13 @@
+[QuestaSim]
+my_project_lib = $HDS_PROJECT_DIR\my_project_lib\questasim
+[hdl]
+my_project_lib = $HDS_PROJECT_DIR\my_project_lib\hdl
+[hds]
+my_project_lib = $HDS_PROJECT_DIR\my_project_lib\hds
+[hds_settings]
+default_library = my_project_lib
+version = 3
+[library_type]
+my_project_lib = regular
+[shared]
+others = $HDS_TEAM_HOME/shared.hdp

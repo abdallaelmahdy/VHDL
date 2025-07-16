@@ -1,0 +1,127 @@
+# vsim -f hds_args.tmp -no_autoacc -foreign "hdsInit C:/MentorGraphics/HDS_2021.1/resources/downstream/modelsim/ModelSim_64Bit.dll" -pli ""C:/MentorGraphics/HDS_2021.1/resources/downstream/modelsim/ModelSim_64Bit.dll"" 
+# Start time: 19:14:05 on Apr 28,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading work.shift_register(rtl)#1
+# Loading C:/MentorGraphics/HDS_2021.1/resources/downstream/modelsim/ModelSim_64Bit.dll
+add wave -position end  sim:/shift_register/rst
+add wave -position end  sim:/shift_register/clk
+add wave -position end  sim:/shift_register/load
+add wave -position end  sim:/shift_register/d_in
+add wave -position end  sim:/shift_register/d_out
+force -freeze sim:/shift_register/rst 0 0
+force -freeze sim:/shift_register/clk 1 0, 0 {50 ns} -r 100
+force -freeze sim:/shift_register/load 1 0
+force -freeze sim:/shift_register/d_in 10100111 0
+run
+# 0
+# 
+run
+# 0
+# 
+run
+# 0
+# 
+run
+# 0
+# 
+run
+# 0
+# 
+run
+# 0
+# 
+run
+# 0
+# 
+run
+# 0
+# 
+run
+# 0
+# 
+run
+# 0
+# 
+run
+# 0
+# 
+run
+# 0
+# 
+run
+# 0
+# 
+run
+# 0
+# 
+run
+# 0
+# 
+run
+# 0
+# 
+run
+# 0
+# 
+force -freeze sim:/shift_register/load 0 0
+run
+# 0
+# 
+run
+# 0
+# 
+run
+# 0
+# 
+run
+# 0
+# 
+run
+# 0
+# 
+run
+# 0
+# 
+run
+# 0
+# 
+run
+# 0
+# 
+run
+# 0
+# 
+run
+# 0
+# 
+run
+# 0
+# 
+run
+# 0
+# 
+run
+# 0
+# 
+# hds_start \$HDS_PROJECT_DIR\\my_project_lib\\questasim/work
+# End time: 19:31:01 on Apr 28,2025, Elapsed time: 0:16:56
+# Errors: 0, Warnings: 0
+# reading modelsim.ini
+vsim -L my_project_lib -l ../transcript.txt -i -t ns -multisource_delay latest +typdelays my_project_lib.sfift_l_r(rtl)
+# vsim -L my_project_lib -l ../transcript.txt -i -t ns -multisource_delay latest "+typdelays" my_project_lib.sfift_l_r(rtl) -foreign "hdsInit C:/MentorGraphics/HDS_2021.1/resources/downstream/modelsim/ModelSim_64Bit.dll" -pli ""C:/MentorGraphics/HDS_2021.1/resources/downstream/modelsim/ModelSim_64Bit.dll"" 
+# Start time: 19:31:01 on Apr 28,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vsim-3865) Due to PLI being present, full design access is being specified.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading work.sfift_l_r(rtl)#1
+# Loading C:/MentorGraphics/HDS_2021.1/resources/downstream/modelsim/ModelSim_64Bit.dll
+# The connection to HDS has been closed
+# End time: 20:13:27 on Apr 30,2025, Elapsed time: 48:42:26
+# Errors: 0, Warnings: 0
