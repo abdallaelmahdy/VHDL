@@ -1,0 +1,24 @@
+--
+-- VHDL Architecture my_project4_lib.not_gate.rtl
+--
+-- Created:
+--          by - ELHUSSEIN-STORE.UNKNOWN (DESKTOP-NC58NV1)
+--          at - 17:24:40 04/28/2025
+--
+-- using Mentor Graphics HDL Designer(TM) 2021.1 Built on 14 Jan 2021 at 15:11:42
+--
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+USE ieee.std_logic_arith.all;
+
+ENTITY not_gate IS
+  port(x: in std_logic;
+  y: out std_logic );
+END ENTITY not_gate;
+
+--
+ARCHITECTURE rtl OF not_gate IS
+BEGIN
+  y<=NOT b;
+END ARCHITECTURE rtl;
+

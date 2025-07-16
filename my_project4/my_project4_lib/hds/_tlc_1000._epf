@@ -1,0 +1,2 @@
+DEFAULT_ARCHITECTURE atom fsm
+DEFAULT_FILE atom tlc_1000/fsm.sm

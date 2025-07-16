@@ -1,0 +1,173 @@
+# vsim -f hds_args.tmp -no_autoacc -foreign "hdsInit C:/MentorGraphics/HDS_2021.1/resources/downstream/modelsim/ModelSim_64Bit.dll" -pli ""C:/MentorGraphics/HDS_2021.1/resources/downstream/modelsim/ModelSim_64Bit.dll"" 
+# Start time: 16:07:28 on Apr 28,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading work.dec2_4(rtl)#1
+# Loading C:/MentorGraphics/HDS_2021.1/resources/downstream/modelsim/ModelSim_64Bit.dll
+# Error: an error occured servicing binding <Control-Key-question> - cmd is Binding::BindingHelp
+# bad window path name ".main_pane.source.interior.cs.body.srcobj.shortcuts"
+add wave -position end  sim:/dec2_4/a
+force -freeze sim:/dec2_4/a 00 0
+force -freeze sim:/dec2_4/a 00 0
+run
+# 0
+# 
+run
+# 0
+# 
+force -freeze sim:/dec2_4/a 01 0
+run
+# 0
+# 
+run
+# 0
+# 
+run
+# 0
+# 
+run
+# 0
+# 
+add wave -position end  sim:/dec2_4/y
+force -freeze sim:/dec2_4/a 00 0
+run
+# 0
+# 
+run
+# 0
+# 
+run
+# 0
+# 
+force -freeze sim:/dec2_4/a 01 0
+run
+# 0
+# 
+run
+# 0
+# 
+run
+# 0
+# 
+run
+# 0
+# 
+run
+# 0
+# 
+run
+# 0
+# 
+# hds_start \$HDS_PROJECT_DIR\\my_project4_lib\\questasim/work
+# End time: 17:10:30 on Apr 28,2025, Elapsed time: 1:03:02
+# Errors: 0, Warnings: 0
+# reading modelsim.ini
+vsim -L my_project4_lib -l ../transcript.txt -i -t ns -multisource_delay latest +typdelays my_project4_lib.DEC2_4E(rtl)
+# vsim -L my_project4_lib -l ../transcript.txt -i -t ns -multisource_delay latest "+typdelays" my_project4_lib.DEC2_4E(rtl) -foreign "hdsInit C:/MentorGraphics/HDS_2021.1/resources/downstream/modelsim/ModelSim_64Bit.dll" -pli ""C:/MentorGraphics/HDS_2021.1/resources/downstream/modelsim/ModelSim_64Bit.dll"" 
+# Start time: 17:10:30 on Apr 28,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vsim-3865) Due to PLI being present, full design access is being specified.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading work.dec2_4e(rtl)#1
+# Loading C:/MentorGraphics/HDS_2021.1/resources/downstream/modelsim/ModelSim_64Bit.dll
+add wave -position insertpoint  \
+sim:/dec2_4e/a \
+sim:/dec2_4e/en \
+sim:/dec2_4e/y
+force -freeze sim:/dec2_4e/a 00 0
+force -freeze sim:/dec2_4e/en 1 0
+run
+# 0
+# 
+run
+# 0
+# 
+run
+# 0
+# 
+run
+# 0
+# 
+run
+# 0
+# 
+force -freeze sim:/dec2_4e/a 01 0
+run
+# 0
+# 
+run
+# 0
+# 
+run
+# 0
+# 
+run
+# 0
+# 
+run
+# 0
+# 
+run
+# 0
+# 
+force -freeze sim:/dec2_4e/a 10 0
+run
+# 0
+# 
+run
+# 0
+# 
+run
+# 0
+# 
+run
+# 0
+# 
+run
+# 0
+# 
+force -freeze sim:/dec2_4e/en 0 0
+run
+# 0
+# 
+run
+# 0
+# 
+run
+# 0
+# 
+run
+# 0
+# 
+run
+# 0
+# 
+run
+# 0
+# 
+run
+# 0
+# 
+# hds_start \$HDS_PROJECT_DIR\\my_project_lib\\questasim/work
+# End time: 19:11:37 on Apr 28,2025, Elapsed time: 2:01:07
+# Errors: 0, Warnings: 0
+# couldn't change working directory to "c:\flexlm\my_project4\my_project_lib\questasim/work": no such file or directory
+# hds_restart
+vsim -L my_project4_lib -l ../transcript.txt -i -t ns -multisource_delay latest +typdelays my_project4_lib.DEC2_4E(rtl)
+# vsim -L my_project4_lib -l ../transcript.txt -i -t ns -multisource_delay latest "+typdelays" my_project4_lib.DEC2_4E(rtl) -foreign "hdsInit C:/MentorGraphics/HDS_2021.1/resources/downstream/modelsim/ModelSim_64Bit.dll" -pli ""C:/MentorGraphics/HDS_2021.1/resources/downstream/modelsim/ModelSim_64Bit.dll"" 
+# Start time: 19:12:38 on Apr 28,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading work.dec2_4e(rtl)#1
+# Loading C:/MentorGraphics/HDS_2021.1/resources/downstream/modelsim/ModelSim_64Bit.dll
+# End time: 19:13:34 on Apr 28,2025, Elapsed time: 0:00:56
+# Errors: 0, Warnings: 0

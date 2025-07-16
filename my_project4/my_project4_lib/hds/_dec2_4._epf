@@ -1,0 +1,2 @@
+DEFAULT_ARCHITECTURE atom rtl
+DEFAULT_FILE atom DEC2_4_rtl.vhd

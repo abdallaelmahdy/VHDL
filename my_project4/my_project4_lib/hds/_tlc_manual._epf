@@ -1,0 +1,2 @@
+DEFAULT_ARCHITECTURE atom fsm
+DEFAULT_FILE atom @t@l@c_manual/fsm.sm

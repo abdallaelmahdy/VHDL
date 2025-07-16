@@ -1,0 +1,289 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/MentorGraphics/HDS_2021.1/bin
+T_opt
+!s110 1745849431
+VdNN<SjgzzD3@:=X57CD3n0
+04 7 3 work dec2_4e rtl 1
+=1-54e1ad80ee92-680f8c56-304-4898
+Z1 o-quiet +acc -auto_acc_if_foreign -work my_project4_lib -L my_project4_lib
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;10.6c;65
+R0
+T_opt1
+!s110 1745803644
+VUc;_YOI1eMJNVnki5MXTl0
+04 3 3 work tlc rtl 1
+=1-54e1ad80ee92-680ed97c-1d5-2678
+R1
+R2
+n@_opt1
+R3
+R0
+T_opt2
+!s110 1745845651
+VGHe:9z?9OOfJLaATPJL4j1
+04 6 3 work dec2_4 rtl 1
+=1-54e1ad80ee92-680f7d92-364-9e4
+o-quiet -work my_project4_lib -L my_project4_lib
+R2
+n@_opt2
+R3
+R0
+Eand_4
+Z4 w1745803158
+Z5 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z6 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z7 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z8 dC:/flexlm/my_project4/my_project4_lib/questasim/work
+Z9 8C:/flexlm/my_project4/my_project4_lib/hdl/and_4_rtl.vhd
+Z10 FC:/flexlm/my_project4/my_project4_lib/hdl/and_4_rtl.vhd
+l0
+L14
+VhjOY:VE^ZWX=>Y3;GGbdn1
+!s100 Z;KcG4fa>DMJik3fP2Slc3
+Z11 OL;C;10.6c;65
+33
+Z12 !s110 1745803159
+!i10b 1
+Z13 !s108 1745803159.000000
+Z14 !s90 -work|my_project4_lib|-nologo|-2008|-f|C:/Users/ELHUSS~1/AppData/Local/Temp/Files0|
+Z15 !s107 C:/flexlm/my_project4/my_project4_lib/hdl/and_4_rtl.vhd|
+!i113 0
+Z16 o-nologo -work my_project4_lib -2008
+Z17 tExplicit 1 CvgOpt 0
+Artl
+R5
+R6
+R7
+DEx4 work 5 and_4 0 22 hjOY:VE^ZWX=>Y3;GGbdn1
+l21
+L20
+V^d2AmoBlD=Zg?T6VPeihg1
+!s100 EiNFoGT7hB75;01Xc3H>g3
+R11
+33
+R12
+!i10b 1
+R13
+R14
+R15
+!i113 0
+R16
+R17
+Ecounter_r
+Z18 w1745836890
+R5
+R6
+R7
+R8
+Z19 8C:/flexlm/my_project4/my_project4_lib/hdl/counter_r_rtl.vhd
+Z20 FC:/flexlm/my_project4/my_project4_lib/hdl/counter_r_rtl.vhd
+l0
+L14
+VLge@Y9_QeBDi6eE8EKn^S2
+!s100 TM5>JF@44MD2G^_GFg=dI1
+R11
+33
+Z21 !s110 1745836900
+!i10b 1
+Z22 !s108 1745836899.000000
+R14
+Z23 !s107 C:/flexlm/my_project4/my_project4_lib/hdl/counter_r_rtl.vhd|
+!i113 0
+R16
+R17
+Artl
+R5
+R6
+R7
+DEx4 work 9 counter_r 0 22 Lge@Y9_QeBDi6eE8EKn^S2
+l22
+L20
+VdRKN^ED27`:]OaJ>2:l^@1
+!s100 _S7@>kbXHzfl<PLb5Vh262
+R11
+33
+R21
+!i10b 1
+R22
+R14
+R23
+!i113 0
+R16
+R17
+Ecounter_y
+w1745837336
+R5
+R6
+R7
+R8
+8C:/flexlm/my_project4/my_project4_lib/hdl/counter_y_rtl.vhd
+FC:/flexlm/my_project4/my_project4_lib/hdl/counter_y_rtl.vhd
+l0
+L14
+V1UZH@ERURYiHo`nmnDSF63
+!s100 `jomZXCOj0QOaR4bE_XKi2
+R11
+33
+!s110 1745837337
+!i10b 1
+!s108 1745837337.000000
+R14
+!s107 C:/flexlm/my_project4/my_project4_lib/hdl/counter_y_rtl.vhd|
+!i113 0
+R16
+R17
+Edec2_4
+Z24 w1745845607
+R5
+R6
+R7
+R8
+Z25 8C:/flexlm/my_project4/my_project4_lib/hdl/DEC2_4_rtl.vhd
+Z26 FC:/flexlm/my_project4/my_project4_lib/hdl/DEC2_4_rtl.vhd
+l0
+L14
+V`Z:Wk7T>C9VjfIIoC@^Yz1
+!s100 deeXD1l;D]`9=Fk>@jNKO0
+R11
+33
+Z27 !s110 1745845615
+!i10b 1
+Z28 !s108 1745845614.000000
+R14
+Z29 !s107 C:/flexlm/my_project4/my_project4_lib/hdl/DEC2_4_rtl.vhd|
+!i113 0
+R16
+R17
+Artl
+R5
+R6
+R7
+DEx4 work 6 dec2_4 0 22 `Z:Wk7T>C9VjfIIoC@^Yz1
+l21
+L20
+VEf=oDf2?UL1EFXCfj]jgk2
+!s100 U7fbQ8[_NA4IJ9NkXj?DJ0
+R11
+33
+R27
+!i10b 1
+R28
+R14
+R29
+!i113 0
+R16
+R17
+Edec2_4e
+Z30 w1745849408
+R5
+R6
+R7
+R8
+Z31 8C:/flexlm/my_project4/my_project4_lib/hdl/DEC2_4E_rtl.vhd
+Z32 FC:/flexlm/my_project4/my_project4_lib/hdl/DEC2_4E_rtl.vhd
+l0
+L14
+V0<k5:5J@TN8ji;nI8KK;H0
+!s100 Kh3zTVCFKDh:ULdgPZz?l0
+R11
+33
+Z33 !s110 1745849419
+!i10b 1
+Z34 !s108 1745849419.000000
+R14
+Z35 !s107 C:/flexlm/my_project4/my_project4_lib/hdl/DEC2_4E_rtl.vhd|
+!i113 0
+R16
+R17
+Artl
+R5
+R6
+R7
+DEx4 work 7 dec2_4e 0 22 0<k5:5J@TN8ji;nI8KK;H0
+l22
+L21
+VVTgnH0368?IgSYKNTO5k[1
+!s100 3WRXKn7BjjChdM];n>ODG0
+R11
+33
+R33
+!i10b 1
+R34
+R14
+R35
+!i113 0
+R16
+R17
+Edec8_3
+w1745852036
+R5
+R6
+R7
+R8
+8C:/flexlm/my_project4/my_project4_lib/hdl/dec8_3_struct.vhd
+FC:/flexlm/my_project4/my_project4_lib/hdl/dec8_3_struct.vhd
+l0
+L13
+VT6bhCNK?9?>O>]0k@1O?X1
+!s100 299lnzWnJK9WKBdReP]Z?0
+R11
+31
+!s110 1745855227
+!i10b 1
+!s108 1745855227.000000
+!s90 -work|my_project4_lib|-nologo|-93|-f|C:/Users/ELHUSS~1/AppData/Local/Temp/Files0|
+!s107 C:/flexlm/my_project4/my_project4_lib/hdl/dec8_3_struct.vhd|
+!i113 0
+o-nologo -work my_project4_lib -93
+R17
+Etlc
+Z36 w1745841522
+R5
+R6
+R7
+R8
+Z37 8C:/flexlm/my_project4/my_project4_lib/hdl/TLC_rtl.vhd
+Z38 FC:/flexlm/my_project4/my_project4_lib/hdl/TLC_rtl.vhd
+l0
+L14
+VBn]bSdnGKW^=hXbXR]BjY2
+!s100 8kjn9Y;J?0l5VkDTNZON_1
+R11
+33
+Z39 !s110 1745841570
+!i10b 1
+Z40 !s108 1745841570.000000
+R14
+Z41 !s107 C:/flexlm/my_project4/my_project4_lib/hdl/TLC_rtl.vhd|
+!i113 0
+R16
+R17
+Artl
+R5
+R6
+R7
+DEx4 work 3 tlc 0 22 Bn]bSdnGKW^=hXbXR]BjY2
+l22
+L20
+VYcQ;^]98h]>D>NljJM92_0
+!s100 lSC6GP8H?NiGHemXaZUlZ0
+R11
+33
+R39
+!i10b 1
+R40
+R14
+R41
+!i113 0
+R16
+R17

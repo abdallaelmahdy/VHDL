@@ -1,0 +1,34 @@
+--
+-- VHDL Architecture my_project4_lib.DEC2_4.rtl
+--
+-- Created:
+--          by - ELHUSSEIN-STORE.UNKNOWN (DESKTOP-NC58NV1)
+--          at - 16:01:09 04/28/2025
+--
+-- using Mentor Graphics HDL Designer(TM) 2021.1 Built on 14 Jan 2021 at 15:11:42
+--
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+USE ieee.std_logic_arith.all;
+
+ENTITY DEC2_4 IS
+  port(a: in std_logic_vector(1 downto 0);
+  y:out std_logic_vector(3 downto 0));
+END ENTITY DEC2_4;
+
+--
+ARCHITECTURE rtl OF DEC2_4 IS
+BEGIN
+  process(a)
+  begin
+    if (a="00") then y<="0001";
+    elsif (a="01") then y<="0010";
+    elsif (a="10") then y<="0100";
+      
+      else y<="1000";
+      end if;
+    end process;
+    
+      
+END ARCHITECTURE rtl;
+
